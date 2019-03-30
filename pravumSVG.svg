@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="pravumSVG.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.64"
+     inkscape:cx="499.29723"
+     inkscape:cy="639.80044"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-26.067251)">
+    <g
+       id="layer1-4"
+       inkscape:label="Layer 1"
+       transform="matrix(1.3139496,0,0,1.3139496,-5.2830441,-91.219682)">
+      <path
+         inkscape:transform-center-y="0.87656147"
+         inkscape:transform-center-x="-0.36621733"
+         d="M 175.14327,195.82487 5.9287229,198.32375 126.4357,249.83047 71.768949,89.670064 60.021855,220.19546 195.4505,118.712 67.683416,147.87442 206.04967,245.3146 138.83237,132.81257 88.918772,294.51736 Z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="3.0580674"
+         sodipodi:arg1="0.10554454"
+         sodipodi:r2="108.07136"
+         sodipodi:r1="61.864204"
+         sodipodi:cy="189.30756"
+         sodipodi:cx="113.62332"
+         sodipodi:sides="5"
+         id="path294"
+         style="fill:#008000;stroke-width:0.13802093"
+         sodipodi:type="star" />
+    </g>
+  </g>
+</svg>
