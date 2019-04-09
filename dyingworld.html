@@ -1,42 +1,97 @@
 <head>
-    <title>Dyingworld</title>
-
+  <title>Dyingworld</title>
+</head>
 <body>
+  <div id="header">
+    <h1 id="title">DYINGWORLD</h1>
+    <h2 id="title2" style="margin-bottom: 0px">STOP THE MACHINE</h2>
+    <h2 id="title2" style="font-size: 50px">Q2 2020</h2>
+  </div>
 
-    <div id="content" align="center">
-        <h1
-            style="font-family: 'Roboto', sans-serif; color: white; font-size: 150; font-weight: black;margin-bottom: 0px">
-            DYINGWORLD</h1>
-        <h2 style="color:white;font-family: 'Roboto', sans-serif; font-size:40px; font-weight: lighter;">Welcome to a
-            new world.</h2>
-        <span style="color:white;font-family: 'Roboto', sans-serif; font-size: 20px">Dyingworld is a first person
-            roleplaying game, set in alternative world, where totalitarianism was spread through the rest of the world.
-            <br> Cities are being monitored by a one big artificial intelligence.</span>
-        <h2 style="color:white;font-family: 'Roboto', sans-serif; font-size:40px; font-weight: lighter;">Gameplay</h2>
-        <span style="color:white;font-family: 'Roboto', sans-serif; font-size: 20px; text-align: justify;">
-            Each team has unique tasks to accomplish, except Neutrals. Neutrals are ordinary dwellers of the city that
-            can live and work, like in real life.<br><br>
-            Criminals are the bad guys for Police, obviously. They can team up with Neutrals, to get advantage. <br>
-            Their task is to take control over city, kill every member of Police or destroy CAI. Police will win only
-            when every member of Criminals is arrested or neutralised.<br><br>
-            Police is self explanatory. Their task is to prevent Criminals to sell drugs and destroying the CAI. <br>
-            If there will be no alive Police members, they will be given the last opportunity to be spawned as a RSS.
-            As RSS, they will have 10x greater advantage. <br> As mentioned before, Police will win if every member of
-            Criminals is neutralised or arrested.
-        </span>
+  <div id="content">
+    <div id="gameinfo">
+      <h1 style="margin-top: 100px;">What is DYINGWORLD?</h1>
+      <p style="max-width: 600px; margin: 16px auto">
+        Game is set in year 2025, in alternative universe, where European Union
+        is socialist. It is called “United Countries of Socialist Europe” UCSE
+        in short. The AI technology reaches it’s peak: which allows it to
+        control cities and make decisions on it’s own. The actual government
+        consists of 4 people that are called “Overseers”. Tired of this,
+        civilians decide to rebel against the system. Before, there were several
+        terrorist attacks, that made decision to create “RSS”, which stands for
+        “Rapid Situation Squad”, which in case of inevitable danger at larger
+        scale will act fast and efficient, with leaving minimum amount of clues
+        of what happened, to avoid next attack.
+      </p>
+    </div>
+    <div id="meetThem">
+      <h1 style="margin-top:100px">Meet THEM</h1>
+      <p>The game has 2 teams to play as: Rebels and City</p>
+      <div class="grid-container">
+        <div>
+          <div class="card">
+            <div class="toHide">
+              <h1>REBELS</h1>
+              <img
+                style="filter: invert(100%); top:1"
+                src="rudolf_gun.svg"
+                width="100%"
+              />
+            </div>
+            <div class="toShow">
+              <h1 style="color:black;">REBELS</h1>
+              <p style="color:black; margin-top: 30px">
+                They want freedom, at all costs. Chances of winning against the
+                city are near zero, but they will not give up. When you play as
+                Rebel, try to find a lot of medical supplies and weapons. Since
+                you are not ready for combat, because you were ordinary
+                civilians, you will need to upgrade your skills and experience
+                mental illnesses.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="toHide">
+              <h1>CITY</h1>
+              <img
+                style="filter: invert(100%); bottom:0; pointer-events: none; position: absolute;"
+                src="rss_portrait.svg"
+                height="80%"
+              />
+            </div>
+            <div class="toShow">
+              <h1 style="color:black;">CITY</h1>
+              <p style="color:black; margin-top: 30px">
+                They are slaves of the system. They can't resist it, they need
+                to do what they told to. Kill anyone who are against the system,
+                and protect it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <footer style="margin-top: 30px" align="center">
-        <a href="https://www.patreon.com/danielnesov" style="margin-top:20px"><img width="5%"
-                src="https://c5.patreon.com/external/logo/downloads_logomark_color_on_white@2x.png"></a>
-        <a href="https://discord.gg/dyingworld" style="margin-top:20px"><img width="5%"
-                src="https://discordapp.com/assets/2c21aeda16de354ba5334551a883b481.png"></a>
-    </footer>
+    <div style="margin-top: 100px" id="socials">
+      <h1>Interested? Follow us!</h1>
+      <div class="grid-container">
+        <center>
+        <div><a href="https://discordapp.com/invite/dyingworld"><img style="filter: invert(100%);" width="5%" src="discord.svg"></a></div>
+        <div><a href="https://www.patreon.com/danielnesov"><img style="filter: invert(100%);" width="5%" src="patreon.svg"></a></div>
+        </center>
+      </div>
+    </div>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,900');
+    <div style="margin-top: 100px" id=""></div>
 
-        body {
-            background-color: black
-        }
-    </style>
+    <link rel="stylesheet" href="dw-style.css" />
+  </div>
+
+  <footer>
+    <center>
+      <a href="index.html"><img src="pravumSVG.svg" style="filter: grayscale(100%); margin-top: 30px;" width="3%"/></a>
+    </center>
+  </footer>
+</body>

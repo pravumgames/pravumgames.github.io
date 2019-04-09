@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,900");
+
+#title {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 150;
+  font-weight: black;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#title2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 60;
+  font-weight: 100;
+  text-align: center;
+  transform: translate(0px, -40px);
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  width: 400px;
+  height: 500px;
+  position: relative;
+  margin-right: 30px;
+  transition: 0.25s;
+}
+
+.card:hover {
+  background-color: white;
+  color: black;
+}
+
+.card:hover > .toHide {
+  display: none;
+  pointer-events: none;
+}
+
+.toShow {
+  display: none;
+}
+
+.card:hover > .toShow {
+  display: table;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
