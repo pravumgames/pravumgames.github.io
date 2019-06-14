@@ -1,0 +1,22 @@
+{
+    "lang": {
+        "en": {
+            "header": "Hello, we're Pravum",
+            "subHeader": "We're making games!",
+            "dwDesc": "Year 2025, dark age of humanity. We're entering the technological singularity, but the cost of human's freedom. Cities are being monitored by advanced AI, and our race is being treated as slaves: everyone who doesn't work on the factories is being considered as a 'obsolete', and the fate of those is unknown.",
+            "OurTeam": "Our Team",
+            "OurTeamDesc": "We're group of people that was formed by Daniel Nesov and Piotr Horak. We are newcomers to serious game dev, but we all had previous experiences in the past.<br><br>Being driven only by motivation, we're developing our first game: Dyingworld.<br>Our goal is to prove that making a quality game is possible for anyone, no matter the age or team size. We want to make a game, that will be 100% free, without micro transactions, and which will be enjoyable. We won't release it, until we will enjoy it ourselves.<br><br>We think that gameplay + story > visuals. Worlds we create are not always pleasing to the eye and ears, but we can guarantee that they're unique and well written. <br><br>Our team consists of about 10 highly talented people, that weren't able to show their potential. Now we can.",
+            "JoinUs": "Ready to join us?",
+            "JoinUsDesc": "You can apply no matter your education, age, gender, timezone and country. We're open for anyone that wants to do something amazing, but couldn't before. We will ensure that you will enjoy making what we all love making here: software and games. That's why we don't have deadzones, won't rush you and etc. We want to make quality stuff while liking the process, not to rush.<br><br>If you're ready, you can press here to fill out the form! We can't wait to work with you!"
+        },
+        "ru": {
+            "header": "Привет, мы Pravum",
+            "subHeader": "Мы создаем игры!",
+            "dwDesc": "Год 2025, тёмный век человечества. Мы погружаемся в технологическую сингулярность, ценой человеческой свободы. Cities are being monitored by advanced AI, and our race is being treated as slaves: everyone who doesn't work on the factories is being considered as a 'obsolete', and the fate of those is unknown.",
+            "OurTeam": "Наша команда",
+            "OurTeamDesc": "We're group of people that was formed by Daniel Nesov and Piotr Horak. We are newcomers to serious game dev, but we all had previous experiences in the past.<br><br>Being driven only by motivation, we're developing our first game: Dyingworld.<br>Our goal is to prove that making a quality game is possible for anyone, no matter the age or team size. We want to make a game, that will be 100% free, without micro transactions, and which will be enjoyable. We won't release it, until we will enjoy it ourselves.<br><br>We think that gameplay + story > visuals. Worlds we create are not always pleasing to the eye and ears, but we can guarantee that they're unique and well written. <br><br>Our team consists of about 10 highly talented people, that weren't able to show their potential. Now we can.",
+            "JoinUs": "Готовы присоединиться к нам?",
+            "JoinUsDesc": "You can apply no matter your education, age, gender, timezone and country. We're open for anyone that wants to do something amazing, but couldn't before. We will ensure that you will enjoy making what we all love making here: software and games. That's why we don't have deadzones, won't rush you and etc. We want to make quality stuff while liking the process, not to rush.<br><br>If you're ready, you can press here to fill out the form! We can't wait to work with you!"
+        }
+    }
+}

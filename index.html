@@ -1,9 +1,10 @@
 <head>
+    <meta charset="UTF-8" />
   <title>Pravum Studios</title>
 </head>
 <body>
   <div align="center" class="header">
-    <h1 style="margin: 0px;">
+    <h1 id="header" style="margin: 0px;">
       Hello, <br />
       we're Pravum <img src="logo.jpg" width="100px" />
     </h1>
@@ -11,11 +12,12 @@
   </div>
 
   <div align="center" class="games">
-    <h1>We're making games!</h1>
+    <h1 id="subHeader">We're making games!</h1>
   </div>
   <div class="dyingworldDiv">
-    <h1>DYINGWORLD <img src="dw.jpg" style="margin: 0px; float: right;" /></h1>
-    <p>
+    <img style="margin: 0px; float: right;" src="dw.jpg">
+    <h1>DYINGWORLD</h1>
+    <p id="dwDesc">
       Year 2025, dark age of humanity. We're entering the technological
       singularity, but the cost of human's freedom. Cities are being monitored
       by advanced AI, and our race is being treated as slaves: everyone who
@@ -27,10 +29,10 @@
   <hr />
 
   <div align="center" class="team">
-    <h1>
+    <h1 id="OurTeam">
       Our Team
     </h1>
-    <p>
+    <p id="OurTeamDesc">
       We're group of people that was formed by Daniel Nesov and Piotr Horak. We
       are newcomers to serious game dev, but we all had previous experiences in
       the past. <br /><br />
@@ -54,10 +56,10 @@
   </div>
 
   <div align="center" class="team">
-    <h1>
+    <h1 id="JoinUs">
       Ready to join us?
     </h1>
-    <p>
+    <p id="JoinUsDesc">
       You can apply no matter your education, age, gender, timezone and country.
       We're open for anyone that wants to do something amazing, but couldn't
       before. We will ensure that you will enjoy making what we all love making
@@ -84,7 +86,7 @@
 
   h1 {
     color: rgb(0, 127, 70);
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 100px;
   }
@@ -103,7 +105,7 @@
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 70px;
     margin: 0px;
   }
 
@@ -111,7 +113,7 @@
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-size: auto;
+    font-size: 17px;
     font-weight: 100;
     margin: 0px;
     max-width: 50%;
@@ -191,3 +193,5 @@
     max-width: 80%;
   }
 </style>
+
+<script src="languageChanger.js"></script>
