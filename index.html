@@ -1,197 +1,72 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8" />
-  <title>Pravum Studios</title>
+	<title>Pravum</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
 </head>
+
 <body>
-  <div align="center" class="header">
-    <h1 id="header" style="margin: 0px;">
-      Hello, <br />
-      we're Pravum <img src="logo.jpg" width="100px" />
-    </h1>
-    <img width="100%" src="titleFooter.jpg" />
-  </div>
+	<nav class="uk-navbar-container uk-margin" uk-navbar="mode: click">
+    <div class="uk-navbar-left">
 
-  <div align="center" class="games">
-    <h1 id="subHeader">We're making games!</h1>
-  </div>
-  <div class="dyingworldDiv">
-    <img style="margin: 0px; float: right;" src="dw.jpg">
-    <h1>DYINGWORLD</h1>
-    <p id="dwDesc">
-      Year 2025, dark age of humanity. We're entering the technological
-      singularity, but the cost of human's freedom. Cities are being monitored
-      by advanced AI, and our race is being treated as slaves: everyone who
-      doesn't work on the factories is being considered as a "obsolete", and the
-      fate of those is unknown.
-    </p>
-  </div>
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">HOME</a></li>
+        </ul>
+    </div>
+</nav>
+	<div align="center" id="header">
+		<h1>We're Pravum.</h1>
+		<dl>We create games, software and prototype hardware.
+	</div>
 
-  <hr />
+	<div align="center" id="about">
+		<h1>About team</h1>
+		<p style="max-width: 800px;">
+We're group of people that was formed by Daniel Nesov and Piotr Horak. We are newcomers to serious game development, but we all had previous experiences in the past. 
 
-  <div align="center" class="team">
-    <h1 id="OurTeam">
-      Our Team
-    </h1>
-    <p id="OurTeamDesc">
-      We're group of people that was formed by Daniel Nesov and Piotr Horak. We
-      are newcomers to serious game dev, but we all had previous experiences in
-      the past. <br /><br />
-      Being driven only by motivation, we're developing our first game:
-      <strong>Dyingworld</strong>.
-      <br />
-      Our goal is to prove that making a quality game is possible for anyone, no
-      matter the age or team size. We want to make a game, that will be 100%
-      free, without micro transactions, and which will be enjoyable. We won't
-      release it, until we will enjoy it ourselves.
-      <br />
-      <br />
-      We think that gameplay + story > visuals. Worlds we create are not always
-      pleasing to the eye and ears, but we can guarantee that they're unique and
-      well written.
-      <br />
-      <br />
-      Our team consists of about 10 highly talented people, that weren't able to
-      show their potential. Now we can.
-    </p>
-  </div>
+Being driven only by motivation, we're developing our first game: Dyingworld. 
+Our goal is to prove that making a quality game is possible for anyone, no matter the age or team size. We want to make a game, that will be completely free, without micro transactions, and which will be enjoyable. We won't release it, until we will enjoy it ourselves. 
 
-  <div align="center" class="team">
-    <h1 id="JoinUs">
-      Ready to join us?
-    </h1>
-    <p id="JoinUsDesc">
-      You can apply no matter your education, age, gender, timezone and country.
-      We're open for anyone that wants to do something amazing, but couldn't
-      before. We will ensure that you will enjoy making what we all love making
-      here: software and games. That's why we don't have deadzones, won't rush
-      you and etc. We want to make quality stuff while liking the process, not
-      to rush.
-      <br />
-      <br />
-      If you're ready, you can press <a href="https://forms.gle/gckvRGeY3AxK5XvV6">here</a> to fill out the form!
-      We can't wait to work with you!
-    </p>
-  </div>
+We think that gameplay and story are more important than visuals. Worlds we create are not always pleasing to the eye and ears, but we can guarantee that they're unique and well written. 
+
+Our team consists of several highly talented people, that weren't able to show their potential. Now they can.
+	</p>
+	</div>
+	<div align="center" id="projects">
+		<h1>Our projects</h1>
+<div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+    <div>
+        <div class="uk-card uk-card-secondary uk-card-body">
+            <h1 class="uk-card-title">Dyingworld</h1>
+            <p>Year 2025, dark age of humanity. We're entering the technological singularity, but the cost of human's freedom. Cities are being monitored by advanced AI, and our race is being treated as slaves: everyone who doesn't work on the factories is being considered as a "obsolete", and the fate of those is unknown.</p>
+						    <div class="uk-card-footer">
+        <a href="dyingworld.html" class="uk-button uk-button-text">Read more</a>
+    </div>
+    </div>
+				
+    </div>
+		    <div>
+        <div class="uk-card uk-card-primary uk-card-body">
+            <h1 class="uk-card-title">Sapphire</h1>
+            <p>A work in progress game engine for web based games.</p>
+						    <div class="uk-card-footer">
+        <a href="sapphire.html" class="uk-button uk-button-text">Read more</a>
+    </div>
+        </div>
+    </div>
+		    <div>
+        <div class="uk-card uk-card-secondary uk-card-body" style="background-color: purple">
+            <h1 class="uk-card-title">Netrunners</h1>
+            <p>Break into the system. Return the data to Client. A fast paced retrowave shooter set in the alternate reality, where internet is widely used in 80s</p>
+						    <div class="uk-card-footer">
+        <a href="netrunners.html" class="uk-button uk-button-text">Read more</a>
+    </div>
+        </div>
+    </div>
+</div>
+	</div>
 </body>
-
-<style>
-  @import url("https://fonts.googleapis.com/css?family=Raleway:100,400,700&display=swap");
-  @import url("https://fonts.googleapis.com/css?family=Roboto:100,900&display=swap");
-
-  body {
-    background-color: white;
-    overflow-x: hidden;
-    margin: 0px;
-  }
-
-  h1 {
-    color: rgb(0, 127, 70);
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 100px;
-  }
-
-  .games h1 {
-    color: rgb(0, 127, 70);
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 100px;
-    margin: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  .dyingworldDiv h1 {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 70px;
-    margin: 0px;
-  }
-
-  .dyingworldDiv p {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-    font-weight: 100;
-    margin: 0px;
-    max-width: 50%;
-  }
-
-  .software h1 {
-    color: rgb(0, 127, 70);
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 100px;
-    margin: 0px;
-    padding-top: 30px;
-  }
-
-  .header {
-    background-color: white;
-    padding: 0px;
-    width: 100%;
-    margin: 0px;
-  }
-
-  .header h1 {
-    background: -webkit-linear-gradient(rgb(0, 127, 70), rgb(0, 184, 101));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .games {
-    background-color: white;
-    padding: 0px;
-    width: 100%;
-    margin: 0px;
-  }
-
-  .dyingworldDiv {
-    background-color: black;
-    padding: 0px;
-    width: 100%;
-    margin: 0px;
-    height: 200px;
-  }
-
-  .software {
-    background-color: white;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-  }
-
-  .team {
-    background-color: white;
-    margin: 0px;
-    width: 100%;
-  }
-
-  .team p {
-    background-color: white;
-    width: 100%;
-  }
-
-  .team h1 {
-    padding: 0px;
-    margin: 0px;
-  }
-
-  hr {
-    margin-top: 30px;
-    width: 80%;
-    height: 2px;
-    background-color: rgb(0, 105, 65);
-    border: 0 none;
-  }
-
-  p {
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    max-width: 80%;
-  }
-</style>
-
-<script src="languageChanger.js"></script>
+</html>
