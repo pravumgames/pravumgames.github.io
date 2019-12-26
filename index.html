@@ -1,171 +1,119 @@
 <!DOCTYPE html>
+<!--Made by Daniel Nesov <3-->
 <html>
   <head>
-    <title>Astrum Website</title>
-    <meta charset="UTF-8" />
-    <!-- UIkit -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css"
-    />
-    <script 
-    src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"
-    ></script>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/style/style.css" />
+    <title>Astrum</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-
   <body>
-    <div
-      id="title"
-      style="position: relative; height: 500px; background-color:#546eff; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));"
-    >
-      <h1
-        align="center"
-        style="color: white; font-size: 100px; padding-top:5%;"
-      >
-        ASTRUM
+    <div id="title" style="margin-left: 5vmin;">
+      <div style="margin-top: 1vmax;">
+        <h1>
+          We're <span style="color: #536DFE"><strong>Astrum</strong></span
+          >, and we make
+          <span style="color: #536DFE"><strong>cool stuff</strong></span>
+        </h1>
+        <p>
+          The independent team of about 10 talented individuals that do what
+          they love to do.
+        </p>
+      </div>
+    </div>
+
+    <div id="games" style="margin-top: 10%; margin-left: 10vmin;">
+      <h1>
+        Games.
       </h1>
-      <p align="center" style="color:white;">
-        The software and game development team
+      <p>
+        Ranging from prototypes to large experiences.
       </p>
+      <a href="">
+        <div class="cover">
+          <img src="./assets/dyingworldCover.png" width="333vmax" />
+        </div>
+      </a>
     </div>
-    <div id="about" align="center" style="margin-top: 5%; ">
-      <h1>Who are we?</h1>
-      <p style="max-width: 50%; color: black;">
-        We're group of people that was formed by Daniel Nesov and Piotr Horak.
-        We are newcomers to serious game development, but we all had previous
-        experiences in the past. We're developing experimental software, and our
-        first game: Dyingworld and expansion to it.
+    <div id="software" style="margin-top: 10%; margin-left: 10vmin;">
+      <h1>
+        Software.
+      </h1>
+      <p>
+        We're also experimenting with software development.
       </p>
+      <ul>
+        <li><a href="https://github.com/teamastrum/Zirka">Zirka</a></li>
+      </ul>
     </div>
 
-    <div id="motivation" align="center" style="margin-top: 5%; ">
-      <h1>We're driven only by motivation.</h1>
-      <p style="max-width: 50%; color: black;">
-        Astrum is a place where folks with similar minds come together to make
-        something cool and unique. We're not the evil game company: we are just
-        individuals that want to create something amazing with others. We think that
-        if you don't enjoy the process of creating the project, the productivity
-        will drop, which leads to worse creativity and quality of the project.
-        <br /><br />
-        That's why we organized our work the way, that you can switch between
-        projects. If you're bored with gray and dystopian world of Dyingworld,
-        you can switch to other projects.
+    <div
+      id="members"
+      style="margin-top: 10%; margin-right: 10vmin; margin-left: 10vmin;"
+    >
+      <h1>
+        Meet <span style="color: #536DFE"><strong>Us</strong></span>
+      </h1>
+      <p>
+        Each of us live on a different sides of Earth and has a different age,
+        but we've assembled together to create memorable experiences.
       </p>
+      <ul>
+        <li>
+          <a id="select" href="https://twitter.com/NesovDaniel">Daniel Nesov</a>
+          <p>
+            Team Lead | Lead Game Designer | Gameplay Programmer | 2D Artist
+          </p>
+        </li>
+        <li>
+          <a id="select" href="">Mocc</a>
+          <p>3D Artist (Props, hard surface) | Project Manager</p>
+        </li>
+        <li>
+          <a id="select" href="">Terradice</a>
+          <p>Game Designer | Backend Programmer | Software Enginner</p>
+        </li>
+        <li>
+          <a id="select" href="">xSlendiX</a>
+          <p>Software Engineer</p>
+        </li>
+        <li>
+          <a id="select" href="">SolarParadox212</a>
+          <p>3D Artist (Hard surface)</p>
+        </li>
+        <li>
+          <a id="select" href="">locarem</a>
+          <p>3D Artist (Props, hard surface)</p>
+        </li>
+        <li>
+          <a id="select" href="">Ted Hanlon</a>
+          <p>Music Composer</p>
+        </li>
+        <li>
+          <a href="">Wilno</a>
+          <p>Game Designer</p>
+        </li>
+        <li>
+          <a id="select" href="">Mateusz Gniadek</a>
+          <p>Sound Designer</p>
+        </li>
+        <li>
+          <a id="select" href="">kotyk</a>
+          <p>System Administrator | Software Developer</p>
+        </li>
+      </ul>
     </div>
 
-    <div id="people" align="center" style="margin-top: 5%; ">
-      <h1>Our team</h1>
-      <p style="max-width: 50%; color: black;">
-        Our team consists of highly talented artists and musicians, creative
-        writers and designers, and experienced programmers. Each of us has a
-        significantly different age and is from other part of the planet. Such
-        things are not barriers for us, and we will always find a way to
-        communicate. Together we can create quality code, unique worlds,
-        engaging gameplays and memorable soundtracks.
+    <div id="missedSomething" style="margin-top: 10%; margin-left: 10vmin;">
+      <h1>
+        Have we missed something?
+      </h1>
+      <p>
+        If you have any questions, you can contact us.
       </p>
+      <ul>
+        <li><a href="">Email</a></li>
+        <li><a href="">Twitter</a></li>
+      </ul>
     </div>
-
-    <div id="people" align="center" style="margin-top: 5%; ">
-      <h1>Sounds interesting? Apply!</h1>
-      <p style="max-width: 50%; color: black;"></p>
-      <div align="center" style="margin: 20px 0px;" class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
-        <div>
-          <div
-            class="darkgreen uk-card uk-card-primary uk-card-body uk-card-small"
-          >
-            <div class="uk-width-expand">
-              <h3 class="uk-card-title uk-margin-remove-bottom">Game Designer</h3>
-              <p class="uk-text-meta uk-margin-remove-top">
-                Design Department
-              </p>
-            </div>
-            <div class="uk-card-body">
-              Game Designer is a person responsible for developing content ideas and suggestions for the game.
-            </div>
-            <div class="uk-card-footer">
-              <a href="https://bit.ly/2zGsgzQ" class="uk-button uk-button-text">Read more</a>
-              <br>
-              <a href="#job-warning-modal" uk-toggle class="uk-button uk-button-text">Apply</a>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div
-            class="grey uk-card uk-card-primary uk-card-body uk-card-small"
-          >
-            <div class="uk-width-expand">
-              <h3 class="uk-card-title uk-margin-remove-bottom">QA Tester</h3>
-              <p class="uk-text-meta uk-margin-remove-top">
-                Development Department
-              </p>
-            </div>
-            <div class="uk-card-body">
-              QA Tester is responsible for testing the game or software, detect bugs and making suggestions that can make the project better.
-            </div>
-            <div class="uk-card-footer">
-              <a href="https://bit.ly/34r2bDk" class="uk-button uk-button-text">Read more</a>
-              <br>
-              <a href="#job-warning-modal" uk-toggle class="uk-button uk-button-text">Apply</a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div
-            class="pink uk-card uk-card-primary uk-card-body uk-card-small"
-          >
-            <div class="uk-width-expand">
-              <h3 class="uk-card-title uk-margin-remove-bottom">Animator</h3>
-              <p class="uk-text-meta uk-margin-remove-top">
-                Art Department
-              </p>
-            </div>
-            <div class="uk-card-body">
-              Animator is a person responsible for creating animations for the game.
-            </div>
-            <div class="uk-card-footer">
-              <a href="https://bit.ly/34r2bDk" class="uk-button uk-button-text">Read more</a>
-              <br>
-              <a href="#job-warning-modal" uk-toggle class="uk-button uk-button-text">Apply</a>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="orange uk-card uk-card-primary uk-card-body uk-card-small">
-            <div class="uk-width-expand">
-              <h3 class="uk-card-title uk-margin-remove-bottom">Shader Programmer</h3>
-              <p class="uk-text-meta uk-margin-remove-top">
-                Development Department
-              </p>
-            </div>
-            <div class="uk-card-body">
-                Shader Programmer is a person creating shaders for the game, usually using GLSL or visual shader editor.
-            </div>
-            <div class="uk-card-footer">
-              <a href="https://bit.ly/34r2bDk" class="uk-button uk-button-text">Read more</a>
-              <br>
-              <a href="#job-warning-modal" uk-toggle class="uk-button uk-button-text">Apply</a>
-            </div>
-          </div>
-        </div>
-
-        <div id="job-warning-modal" uk-modal>
-            <div class="uk-modal-dialog uk-modal-body">
-                <h2 class="uk-modal-title">Apply for a position</h2>
-               <p>Thank you for showing your interest in applying! We're sorry but all of our positions are closed. Try another time!</p>
-                <button class="uk-modal-close uk-button uk-button-default" type="button">Close</button>
-                <button href="#" onclick="alert('Read the message carefully.');" class="uk-button uk-button-primary" style="background-color: #017E47" type="button">Apply</button>
-            </div>
-        </div>
-      </div>
-      </div>
-
-      
-    </div>
-    <footer align="center">Team Astrum. Made with ❤️ using <a href="https://getuikit.com/" target="_blank">UIkit</a></footer>
   </body>
 </html>
-

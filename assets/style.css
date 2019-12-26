@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
+
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 10vmin;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vmin;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 4vmin;
+  color: #536dfe;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul li a #select :hover {
+  text-decoration: underline;
+}
+
+#title {
+  background-image: url("astrumBG.jpg");
+  background-origin: border-box;
+  padding: 5vmin;
+}
+
+.cover {
+  transition: 0.2s;
+  border-radius: 3px;
+  margin-right: 20px;
+  box-shadow: 10px 10px 10px rgba(8, 8, 8, 0);
+  display: inline-block;
+}
+
+.cover:hover {
+  box-shadow: 10px 10px rgba(53, 53, 53, 0.5);
+  transform: scale(1.1);
+}
+
+.cover:active {
+  transform: scale(1);
+}
